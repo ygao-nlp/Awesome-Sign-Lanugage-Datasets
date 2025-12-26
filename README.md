@@ -7,7 +7,7 @@ Our goal is to support multilingual, cross-cultural sign language understanding 
 
 ## ✨ Overview
 
-We train and evaluate our proposed methods on a wide range of **open-access sign language benchmark datasets**, covering major sign languages across the world:
+We organize a collection of open-access sign language benchmark datasets, covering major sign languages across the world, including:
 
 - 🇩🇪 German  
 - 🇺🇸 American  
@@ -19,26 +19,30 @@ We train and evaluate our proposed methods on a wide range of **open-access sign
 - 🇧🇷 Brazilian  
 - 🇮🇳 Indian  
 - 🇫🇷 French  
-- 🇨🇳 Chinese  
-- 🇳🇿 New Zealand (newly collected)
+- 🇨🇳 Chinese
+
+In addition, a new dataset for 🇳🇿 New Zealand Sign Language (NZSL) is currently under construction.
 
 ---
 
 ## 📊 Benchmark Datasets
 
-| Dataset | Language | Region | Description |
-|--------|----------|--------|-------------|
-| **Phoenix-2014** | German Sign Language (DGS) | 🇩🇪 Germany | Continuous sign language translation benchmark |
-| **MS-ASL** | American Sign Language (ASL) | 🇺🇸 USA | Large-scale isolated sign dataset |
-| **Slovo** | Russian Sign Language (RSL) | 🇷🇺 Russia | Isolated sign language dataset |
-| **LSA64** | Argentinian Sign Language (LSA) | 🇦🇷 Argentina | Isolated sign dataset |
-| **BOBSL** | British Sign Language (BSL) | 🇬🇧 UK | Broadcast sign language dataset |
-| **AUTSL** | Turkish Sign Language (TİD) | 🇹🇷 Turkey | Isolated sign recognition dataset |
-| **Auslan-Daily** | Australian Sign Language (Auslan) | 🇦🇺 Australia | Daily communication dataset |
-| **LIBRAS-UFOP** | Brazilian Sign Language (LIBRAS) | 🇧🇷 Brazil | Isolated sign dataset |
-| **FDMSE-ISL** | Indian Sign Language (ISL) | 🇮🇳 India | Multimodal sign dataset |
-| **Mediapi-RGB** | French Sign Language (LSF) | 🇫🇷 France | RGB-based sign dataset |
-| **CSL-Daily** | Chinese Sign Language (CSL) | 🇨🇳 China | Continuous daily sign dataset |
+The following table summarizes the open-access sign language benchmark datasets curated in this repository.  
+
+| Dataset | Language | Region | #Samples | #Vocab | #Signers | URL |
+|---------|----------|--------|-----------|---------|-----------|-----|
+| **Phoenix-2014** | German Sign Language (DGS) | 🇩🇪 Germany | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **MS-ASL** | American Sign Language (ASL) | 🇺🇸 USA | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **Slovo** | Russian Sign Language (RSL) | 🇷🇺 Russia | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **LSA64** | Argentinian Sign Language (LSA) | 🇦🇷 Argentina | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **BOBSL** | British Sign Language (BSL) | 🇬🇧 UK | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **AUTSL** | Turkish Sign Language (TİD) | 🇹🇷 Turkey | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **Auslan-Daily** | Australian Sign Language (Auslan) | 🇦🇺 Australia | 25,106 | 13,945 | 67 | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **LIBRAS-UFOP** | Brazilian Sign Language (LIBRAS) | 🇧🇷 Brazil | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **FDMSE-ISL** | Indian Sign Language (ISL) | 🇮🇳 India | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **Mediapi-RGB** | French Sign Language (LSF) | 🇫🇷 France | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **CSL-Daily** | Chinese Sign Language (CSL) | 🇨🇳 China | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **NZ-Sign** | New Zealand Sign Language (NZSL) | 🇳🇿 New Zealand | TBD | TBD | TBD | [TBD](https://www.teachsign.org.nz/nzslta) |
 
 > 📌 All datasets are open-access and commonly used in sign language understanding research.
 
@@ -50,16 +54,18 @@ To further enhance multilingual coverage, we are collecting a new dataset for **
 
 ### 🔍 Data Sources
 
-NZSL videos are collected from:
-- 📺 **YouTube**
-- 🧑‍🏫 **TechSign** – NZSL Teaching Website
-- 📖 **NZSL Dictionary Website**
+NZSL videos are collected from the following public sources:
+
+- 📺 **[NZSL Signbank](https://signbank.nzsl.nz/)** and **[NZSL Dictionary](https://www.nzsl.nz/)** — Authoritative online dictionaries providing lexical entries and example videos for NZSL signs.  
+- 📡 **[Turi TV](https://www.turitv.co.nz/)** — A New Zealand Sign Language educational resource that has a world of resources that can assist with your children's education.  
+- 👥 **[Watch Us](https://www.watchus.nz/)** and **[Deaf Aotearoa](https://www.deaf.org.nz/)** — Community platforms sharing stories, resources, and videos by and for Deaf people in Aotearoa New Zealand.  
+- 🏛️ **[NZ Parliament YouTube Channel](https://www.youtube.com/@nzparliament3209)** — Official parliamentary videos with NZSL interpretation in public broadcasts.  
+- 🧑‍🏫 **[TechSign](https://www.teachsign.org.nz/)** — An NZSL teaching website offering instructional videos and learning materials.
 
 ### 🎯 Purpose
 
 This dataset aims to:
 - Expand coverage to underrepresented sign languages
-- Improve robustness of translation and generation systems
 - Support future research on NZSL understanding
 
 ---
