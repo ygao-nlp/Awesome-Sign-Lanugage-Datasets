@@ -37,7 +37,7 @@ The following table summarizes the open-access sign language benchmark datasets 
 | **LSA64** | Argentinian Sign Language (LSA) | 🇦🇷 Argentina | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
 | **BOBSL** | British Sign Language (BSL) | 🇬🇧 UK | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
 | **AUTSL** | Turkish Sign Language (TİD) | 🇹🇷 Turkey | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
-| **Auslan-Daily** | Australian Sign Language (Auslan) | 🇦🇺 Australia | 25,106 | 13,945 | 67 | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **Auslan-Daily** | Australian Sign Language (Auslan) | 🇦🇺 Australia | 25,106 | 13,945 | 67 | [Official Page](https://uq-cvlab.github.io/Auslan-Daily-Dataset/docs/en/dataset-download) |
 | **LIBRAS-UFOP** | Brazilian Sign Language (LIBRAS) | 🇧🇷 Brazil | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
 | **FDMSE-ISL** | Indian Sign Language (ISL) | 🇮🇳 India | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
 | **Mediapi-RGB** | French Sign Language (LSF) | 🇫🇷 France | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
