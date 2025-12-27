@@ -29,19 +29,19 @@ In addition, a new dataset for 🇳🇿 New Zealand Sign Language (NZSL) is curr
 
 The following table summarizes the open-access sign language benchmark datasets curated in this repository.  
 
-| Dataset | Language | Region | #Samples | #Vocab | #Signers | URL |
+| Dataset | Language | Region | #Samples | #Class/Vocab | #Signers | URL |
 |---------|----------|--------|-----------|---------|-----------|-----|
-| **Phoenix-2014** | German Sign Language (DGS) | 🇩🇪 Germany | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
-| **MS-ASL** | American Sign Language (ASL) | 🇺🇸 USA | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
-| **Slovo** | Russian Sign Language (RSL) | 🇷🇺 Russia | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
-| **LSA64** | Argentinian Sign Language (LSA) | 🇦🇷 Argentina | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
-| **BOBSL** | British Sign Language (BSL) | 🇬🇧 UK | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
-| **AUTSL** | Turkish Sign Language (TİD) | 🇹🇷 Turkey | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **Phoenix-2014** | German Sign Language (DGS) | 🇩🇪 Germany | 6,841 | 1,558 | 9 | [Official Page](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/) |
+| **MS-ASL** | American Sign Language (ASL) | 🇺🇸 USA | 25,513 | 1,000 | 222 | [Official Page](https://www.microsoft.com/en-us/download/details.aspx?id=100121) |
+| **Slovo** | Russian Sign Language (RSL) | 🇷🇺 Russia | 20,000 | 1,000 | 194 | [Official Page](https://github.com/hukenovs/slovo?tab=readme-ov-file) |
+| **LSA64** | Argentinian Sign Language (LSA) | 🇦🇷 Argentina | 3,200 | 10 | 64 | [Official Page](https://facundoq.github.io/datasets/lsa64/) |
+| **BOBSL** | British Sign Language (BSL) | 🇬🇧 UK | 1.2M | 78K | 39 | [Official Page](https://www.robots.ox.ac.uk/~vgg/data/bobsl/#download) |
+| **AUTSL** | Turkish Sign Language (TİD) | 🇹🇷 Turkey | 38,336 | 226 | 43 | [Official Page](https://cvml.ankara.edu.tr/datasets/) |
 | **Auslan-Daily** | Australian Sign Language (Auslan) | 🇦🇺 Australia | 25,106 | 13,945 | 67 | [Official Page](https://uq-cvlab.github.io/Auslan-Daily-Dataset/docs/en/dataset-download) |
-| **LIBRAS-UFOP** | Brazilian Sign Language (LIBRAS) | 🇧🇷 Brazil | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
-| **FDMSE-ISL** | Indian Sign Language (ISL) | 🇮🇳 India | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
-| **Mediapi-RGB** | French Sign Language (LSF) | 🇫🇷 France | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
-| **CSL-Daily** | Chinese Sign Language (CSL) | 🇨🇳 China | TBD | TBD | TBD | [Official Page](https://www-i6.informatik.rwth-aachen.de/phoenix-2014/) |
+| **LIBRAS-UFOP** | Brazilian Sign Language (LIBRAS) | 🇧🇷 Brazil | 2,800 | 56 | 5 | [Official Page](https://www.kaggle.com/datasets/andersonls/libras-ufop-dataset) |
+| **FDMSE-ISL** | Indian Sign Language (ISL) | 🇮🇳 India | 40,033 | 2,002 | 20 | [Official Page](https://cs.rkmvu.ac.in/~isl/) |
+| **Mediapi-RGB** | French Sign Language (LSF) | 🇫🇷 France | 1,230 | - | >10 | [Official Page](https://www.ortolang.fr/workspaces/mediapi-rgb) |
+| **CE-CNSL** | Chinese Sign Language (CSL) | 🇨🇳 China | 5,988 | 3,515 | 12 | [Official Page](https://github.com/woshisad159/TFNet) |
 | **NZ-Sign** | New Zealand Sign Language (NZSL) | 🇳🇿 New Zealand | TBD | TBD | TBD | [TBD](https://www.teachsign.org.nz/nzslta) |
 
 > 📌 All datasets are open-access and commonly used in sign language understanding research.
